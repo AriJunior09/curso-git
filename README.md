@@ -1,2 +1,3 @@
-# curso-git
-Repositório do curso **Git** da Comunidade Dev Completo
+# Curso-Git
+---
+## Nesse repositório haverá exercícios apenas para estudos e práticas do git e seus comandos
