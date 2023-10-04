@@ -20,6 +20,8 @@ public class Aula01 {
             System.out.println("O segundo número é o maior!");
         }
 
+        System.out.println("Fim");
+
 
     }
     
