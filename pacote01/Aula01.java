@@ -21,6 +21,8 @@ public class Aula01 {
         }
 
         System.out.println("Fim");
+        System.out.println("Testando comandos do git");
+        System.out.println("Segunda linha de alteração");
 
 
     }
