@@ -21,6 +21,7 @@ public class Aula01 {
         }
 
         System.out.println("Fim");
+        System.out.println("Testando novo commit");
 
 
     }
