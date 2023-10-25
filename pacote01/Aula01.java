@@ -25,6 +25,9 @@ public class Aula01 {
         
         System.out.println();
         System.out.println("cd + <nome da pasta> =  para entrar em uma pasta");
+
+        System.out.println();
+        System.out.println("clear = Limpa o terminal do git");
         
         System.out.println();
         System.out.println("git status = para listar todos os ficheiros modificados no projecto atual");
