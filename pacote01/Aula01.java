@@ -43,6 +43,12 @@ public class Aula01 {
 
         System.out.println();
         System.out.println("git add . = prepara tudo para que possa ser incluído em commits (staged)");
+
+        System.out.println();
+        System.out.println("git log = mostra o histórico de versões");
+
+        System.out.println();
+        System.out.println("git log --oneline = mostra o histórico de versões resumido");
        
         System.out.println();
         System.out.println("git reset <ficheiro> = Remove o ficheiro da área de preparação (staged) sem o remover do sistema de ficheiros");
