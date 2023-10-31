@@ -1,10 +1,9 @@
 package pacote01;
 
-import java.util.Scanner;
-
 public class Aula01 {
 
     public static void main(String[] args){
+        
        
         System.out.println();
         System.out.println("git config --global user.name <nome> = Configura o nome que ficará associado aos Git commits"); 
