@@ -56,6 +56,11 @@ public class Aula01 {
         System.out.println(); // Desfazer o último commit sem desfazer as modificações  nos arquivos:
         System.out.println("git reset --soft HEAD~1  = Desfaz o último commit sem apagar as alterações");
 
+        System.out.println(); // Deletar Commits e tambem modificações nos arquivos:
+        System.out.println("git reset --hard <codigo do commit>  = Deleta tudo do commi para frente");
+        System.out.println("git reset --hard HEAD~1  = Volta o projeto para o estado do último commit");
+                            // ATENÇÃO! AS AÇÕES ACIMA SÃO DESTRUTIVAS!  CUIDADO! 
+
 
 
         System.out.println(); // O que fazer quando abre o editor VIM
@@ -65,7 +70,7 @@ public class Aula01 {
         System.out.println("<ESC>  :wq  <ENTER> = Sair do VIM salvando as alterações");
         System.out.println("<ESC>  :q!  <ENTER> = Sair do VIM descartando as alterações");
 
-        
+
         System.out.println();
         System.out.println("git log = mostra o histórico de versões");
 
