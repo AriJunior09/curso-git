@@ -46,10 +46,17 @@ public class Aula01 {
         System.out.println();
         System.out.println("git reset = retira as modificações do staged");
 
-        System.out.println(); // Para desfazer modificações não salvas.
+
+        System.out.println(); // Para desfazer modificações não salvas:
         System.out.println("git reset         = Primeiro comando");
         System.out.println("git clean -df     = Segundo comando");
         System.out.println("git checkout -- . = Terceiro comando");
+
+
+        System.out.println(); // Desfazer o último commit sem desfazer as modificações  nos arquivos:
+        System.out.println("git reset --soft HEAD~1  = Desfaz o último commit sem apagar as alterações");
+
+
 
         System.out.println(); // O que fazer quando abre o editor VIM
         // No exemplo abaixo é quando o usuário faz um commit sem escrever a mensagem, nesse momento é aberto o VIM,
@@ -58,7 +65,7 @@ public class Aula01 {
         System.out.println("<ESC>  :wq  <ENTER> = Sair do VIM salvando as alterações");
         System.out.println("<ESC>  :q!  <ENTER> = Sair do VIM descartando as alterações");
 
-
+        
         System.out.println();
         System.out.println("git log = mostra o histórico de versões");
 
