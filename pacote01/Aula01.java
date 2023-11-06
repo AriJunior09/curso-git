@@ -44,6 +44,22 @@ public class Aula01 {
         System.out.println("git add . = prepara tudo para que possa ser incluído em commits (staged)");
 
         System.out.println();
+        System.out.println("git reset = retira as modificações do staged");
+
+        System.out.println(); // Para desfazer modificações não salvas.
+        System.out.println("git reset         = Primeiro comando");
+        System.out.println("git clean -df     = Segundo comando");
+        System.out.println("git checkout -- . = Terceiro comando");
+
+        System.out.println(); // O que fazer quando abre o editor VIM
+        // No exemplo abaixo é quando o usuário faz um commit sem escrever a mensagem, nesse momento é aberto o VIM,
+        // Para resolver isso faça o passo-a-passo abaixo.
+        System.out.println("Digite i           = Para Habilitar o modo de edição para adicionar a mensagem do commit");
+        System.out.println("<ESC>  :wq  <ENTER> = Sair do VIM salvando as alterações");
+        System.out.println("<ESC>  :q!  <ENTER> = Sair do VIM descartando as alterações");
+
+
+        System.out.println();
         System.out.println("git log = mostra o histórico de versões");
 
         System.out.println();
