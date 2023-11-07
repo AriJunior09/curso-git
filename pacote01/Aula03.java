@@ -23,7 +23,8 @@ public class Aula03 {
             System.out.print("Código: ");
             Integer cod = sc.nextInt();				 // Insira o código do produto
             System.out.print("Nome do produto: ");
-            String nome = sc.next();				 // Insira o nome do produto
+            sc.nextLine();
+            String nome = sc.nextLine();				 // Insira o nome do produto
             System.out.print("Valor: ");
             Double valor = sc.nextDouble();			 // Insira o valor do produto
             Listax compras = new Listax(cod, nome, valor); // Gerando a lista com base nos dados inseridos
