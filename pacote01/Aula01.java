@@ -102,6 +102,12 @@ public class Aula01 {
 
         System.out.println();
         System.out.println("git pull origin = Envia todos os commits para o GitHub");
+        System.out.println();
+
+        // Criar um novo repositório no GITHUB e puxar o hitorio de um repositorio local:
+        System.out.println("git remote set-url origin git@github.com:SeuUsuario/NovoRepositorio = Envia todo o histórico para esse novo repositorio");
+
+
 
         
         // Aqui é o Branch Main
