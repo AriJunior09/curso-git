@@ -3,7 +3,6 @@ package pacote01;
 public class Aula01 {
 
     public static void main(String[] args){
-        
        
         System.out.println();
         System.out.println("git config --global user.name <nome> = Configura o nome que ficará associado aos Git commits"); 
@@ -42,7 +41,7 @@ public class Aula01 {
 
         System.out.println();
         System.out.println("git add . = prepara tudo para que possa ser incluído em commits (staged)");
-
+        
         System.out.println();
         System.out.println("git reset = retira as modificações do staged");
 
@@ -60,7 +59,6 @@ public class Aula01 {
         System.out.println("git reset --hard <codigo do commit>  = Deleta tudo do commi para frente");
         System.out.println("git reset --hard HEAD~1  = Volta o projeto para o estado do último commit");
                             // ATENÇÃO! AS AÇÕES ACIMA SÃO DESTRUTIVAS!  CUIDADO! 
-
 
 
         System.out.println(); // O que fazer quando abre o editor VIM
@@ -105,7 +103,7 @@ public class Aula01 {
         System.out.println();
         System.out.println("git pull origin = Envia todos os commits para o GitHub");
 
-
+        
 
     }
     
