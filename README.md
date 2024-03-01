@@ -1,27 +1,25 @@
-# Tutorial de Comandos Git
+# Comandos Git
 
-Este repositório contém exemplos de código em Java e comandos Git para auxiliar no desenvolvimento de projetos e na manipulação de datas e horas.
+Este repositório contém exemplos de comandos Git que podem ser úteis durante o desenvolvimento de projetos.
 
-## Comandos Git
-
-### Configurações Iniciais do Git
+## Configurações Iniciais
 
 - `git config --global user.name <nome>`:
-  - Configura o nome que ficará associado aos commits do Git.
+  - Configura o nome associado aos commits do Git.
 - `git config --global user.email <endereco-de-email>`:
-  - Configura o email que ficará associado aos commits do Git.
+  - Configura o email associado aos commits do Git.
 
-### Inicialização de um Repositório
+## Inicialização de um Repositório
 
 - `git init <nome-do-projeto>`:
   - Cria um novo repositório local com o nome especificado para o projeto.
 
-### Clonagem e Download de Projetos
+## Clonagem e Download de Projetos
 
 - `git clone <url>`:
   - Faz o download de um projeto Git, incluindo toda a sua história.
 
-### Navegação e Manipulação de Arquivos e Pastas
+## Navegação e Manipulação de Arquivos e Pastas
 
 - `ls`:
   - Lista todas as pastas.
@@ -30,7 +28,7 @@ Este repositório contém exemplos de código em Java e comandos Git para auxili
 - `clear`:
   - Limpa o terminal do Git.
 
-### Verificação e Preparação de Alterações
+## Verificação e Preparação de Alterações
 
 - `git status`:
   - Lista todos os arquivos modificados no projeto atual.
@@ -45,7 +43,7 @@ Este repositório contém exemplos de código em Java e comandos Git para auxili
 - `git reset`:
   - Retira as modificações do staged.
 
-### Desfazendo Alterações
+## Desfazendo Alterações
 
 Para desfazer modificações não salvas:
 - `git reset`:
@@ -65,14 +63,19 @@ Para deletar commits e também modificações nos arquivos:
 - `git reset --hard HEAD~1`:
   - Volta o projeto para o estado do último commit.
 
-### Visualização de Histórico
+## Visualização de Histórico
 
 - `git log`:
   - Mostra o histórico de versões.
 - `git log --oneline`:
   - Mostra o histórico de versões resumido.
 
-### Manipulação de Branches
+## Commit de Alterações
+
+- `git commit -m <mensagem descritiva>`:
+  - Guarda as alterações preparadas permanentemente no histórico de versões.
+
+## Manipulação de Branches
 
 - `git branch`:
   - Lista todos os branches locais no repositório atual.
@@ -85,17 +88,13 @@ Para deletar commits e também modificações nos arquivos:
 - `git branch -d [nome-do-branch]`:
   - Remove o branch especificado.
 
-### Integração com Repositórios Remotos
+## Integração com Repositórios Remotos
 
 - `git push <remote> <branch>`:
   - Envia todos os commits do branch local para o GitHub.
 - `git pull origin`:
   - Atualiza o repositório local com as alterações do GitHub.
 
-## Exemplos de Java DateTime
+---
 
-Os programas Java neste repositório demonstram o uso de DateTimeFormatter para formatação e manipulação de datas e horas.
-
-## Contribuição
-
-Sinta-se à vontade para contribuir com mais exemplos, correções ou melhorias neste repositório. Se encontrar algum problema ou tiver alguma dúvida, abra uma issue.
+Este README fornece uma visão geral dos comandos Git presentes neste repositório. Sinta-se à vontade para contribuir com mais exemplos ou melhorias. Se precisar de mais informações, consulte a documentação oficial do Git.
