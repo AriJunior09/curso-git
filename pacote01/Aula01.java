@@ -107,10 +107,6 @@ public class Aula01 {
         // Criar um novo repositório no GITHUB e puxar o hitorio de um repositorio local:
         System.out.println("git remote set-url origin git@github.com:SeuUsuario/NovoRepositorio = Envia todo o histórico para esse novo repositorio");
 
-
-
-        
-        // Aqui é o Branch Main
     }
     
 }
